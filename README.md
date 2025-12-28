@@ -45,6 +45,7 @@ Notebook:
 ✔ Lower-casing  
 ✔ Removing punctuation  
 ✔ Removing stopwords  
+✔ Tokenization
 ✔ Lemmatization  
 
 A new cleaned column was created: clean_text
@@ -57,8 +58,8 @@ Technique Used:
 TF–IDF Vectorization
 
 Data split:
-80% Training
-20% Testing
+70% Training
+30% Testing
 
 ## Model Used
 Classifier:
@@ -92,7 +93,7 @@ Interpretation
 
 Text preprocessing improved data quality and reduced noise.  
 TF-IDF successfully converted text into numeric features.  
-SVM achieved **85% accuracy**.
+SVM achieved **83% accuracy**.
 
 ## Future Improvements
 ✔ Collect more data  
