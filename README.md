@@ -60,7 +60,7 @@ Data split:
 80% Training
 20% Testing
 
-## 🤖 Model Used
+## Model Used
 Classifier:
 Support Vector Machine (SVM)
 
@@ -68,19 +68,19 @@ Support Vector Machine (SVM)
 
 | Metric | Score |
 |--------|------|
-| Accuracy | **0.85 (85%)** |
+| Accuracy | **0.83 (83%)** |
 
 ### Classification Report
 
 | Label | Precision | Recall | F1-Score |
 |------|----------|-------|--------|
-| 2 | 0.84 | 1.00 | 0.91 |
-| 3 | 1.00 | 0.25 | 0.40 |
+| 2 | 0.82 | 1.00 | 0.90 |
+| 3 | 1.00 | 0.29 | 0.44 |
 
 ### Confusion Matrix
 
-[[16 0]
-[ 3 1]]
+[[23 0]
+[ 5 2]]
 
 Interpretation
 
